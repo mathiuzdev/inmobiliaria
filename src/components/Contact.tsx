@@ -18,14 +18,15 @@ export const Contact = () => {
                     <Input isRequired type="email" variant="underlined" label="E-mail" />
                 </div>
                 <Textarea
+                maxRows={5}
                     isRequired
                     variant="underlined"
                     labelPlacement="outside"
-                   
+                    maxLength={500}
                     label="Mensaje"
                     className="col-span-12 md:col-span-6 mb-6 md:mb-0"
                 />
-                <Button radius="sm" className="my-5" >
+                <Button radius="sm" className="my-5 py-5" >
                     ENVIAR MENSAJE
                 </Button>
             </div>
@@ -34,18 +35,19 @@ export const Contact = () => {
                 <h2 className=" text-l"> También podés escribirnos directamente a</h2>
 
 
-                <Button radius="sm" className="w-full py-7 my-5 text-xl" startContent={<MailOutlineIcon sx={{ fontSize: 80 }} />}>
-                    mail@gmail.com
+                <Button radius="sm" className="w-full py-7 my-5 text-sm font-semibold" startContent={<MailOutlineIcon sx={{ fontSize: 80 }} />}>
+                jesicaortizestudioinmobiliario@gmail.com
                 </Button>
 
-                <p className="flex justify-center">o llamarnos al</p>
-                <Button radius="sm" className="w-full py-7 my-5 text-xl" startContent={<PhoneIcon sx={{ fontSize: 80 }} />}>
-                    123456789
+                <p className="flex justify-center">O llamarnos al</p>
+                <Button radius="sm" className="w-full py-7 my-5 text-xl font-semibold" startContent={<PhoneIcon sx={{ fontSize: 80 }} />}>
+                +54 9 2262-240370
                 </Button>
+             
                 <div>
-                    <h1 className="font-bold text-xl mb-3">SEGUINOS EN</h1>
+                    <h1 className="font-bold text-xl mb-3 ">SEGUINOS EN</h1>
 
-                    <div className="h-14 flex justify-around" >
+                    <div className="h-14 flex justify-start" >
                         <FacebookIcon sx={{ fontSize: 58 }} />
                         <InstagramIcon sx={{ fontSize: 58 }} />
                     </div>

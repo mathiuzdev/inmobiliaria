@@ -3,10 +3,11 @@ interface ListaProps {
 }
 
 export const Nav = ({ lista }: ListaProps) => (
-    <nav className="w-full h-24">
+    <nav className="w-full h-24 ">
         <ul className="flex bg-colorLogo w-full justify-end h-24 items-center space-x-4 pr-5">
             {lista.map((title, index) => (
                 <li className="inline-block
+                font-bold
                 text-gray-600
                 relative
                 cursor-pointer
