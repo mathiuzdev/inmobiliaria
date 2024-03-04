@@ -1,8 +1,8 @@
-interface ListaProps {
+interface listaNav {
     lista: string[];
 }
 
-export const Nav = ({ lista }: ListaProps) => (
+export const Nav = ({ lista }: listaNav) => (
     <nav className="w-full h-24 ">
         <ul className="flex bg-colorLogo w-full justify-end h-24 items-center space-x-4 pr-5">
             {lista.map((title, index) => (

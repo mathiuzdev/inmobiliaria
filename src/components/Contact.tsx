@@ -8,7 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 export const Contact = () => {
     return (
         <>
-            <div className="w-3/5 flex flex-col gap-4 bg-gray-100 px-7 mt-1 mr-2">
+            <div className="w-3/5 flex flex-col gap-4  px-7 mt-1 mr-2">
                 <h1 className="font-bold text-2xl">¡Estamos para ayudarte!</h1>
                 <h2 className="text-l">Complete el siguiente formulario. A la brevedad nos pondremos en contacto con usted.</h2>
                 <label htmlFor="" className="font-bold" >Datos personales</label>
@@ -26,11 +26,11 @@ export const Contact = () => {
                     label="Mensaje"
                     className="col-span-12 md:col-span-6 mb-6 md:mb-0"
                 />
-                <Button radius="sm" className="my-5 py-5" >
+                <Button radius="sm" className="my-5 py-7 font-semibold text-lg" >
                     ENVIAR MENSAJE
                 </Button>
             </div>
-            <div className="w-2/5 bg-gray-100 px-7 mt-1 ml-2">
+            <div className="w-2/5 px-7 mt-1 ml-2">
                 <h1 className="font-bold text-2xl">Siempre Cerca</h1>
                 <h2 className=" text-l"> También podés escribirnos directamente a</h2>
 
