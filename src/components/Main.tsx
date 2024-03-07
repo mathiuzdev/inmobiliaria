@@ -1,13 +1,12 @@
 interface MainProps {
-    children: React.ReactNode,
-    className: string
+    children: React.ReactNode
+    clases: string
 }
 
-export const Main = ({ children, className }: MainProps) => {
+export const Main = ({ clases, children}: MainProps) => {
     return (
         <main className="flex justify-center">
-            <div className={className}>{children} </div>
-
+            <div className={clases}>{children}</div>
         </main>
 
     )
