@@ -3,12 +3,13 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-interface listaNav {
-  lista: string[];
-}
-export const Footer = ({ lista }: listaNav) => {
+import listaNav from "../helpers/listasDinamicas";
+
+const lista = listaNav();
+
+export const Footer = () => {
   return (
-    <div className="flex-col bg-colorLogo h-72 mt-3 w-full pt-5 px-20 bottom-0 left-0">
+    <div className="flex-col bg-colorLogo h-72 mt-3 w-full pt-5 px-20 relative top-5">
       <div className="w-full flex justify-center">
         <img className="h-24 pl-2 " src={image} alt="" />
       </div>
@@ -17,13 +18,13 @@ export const Footer = ({ lista }: listaNav) => {
       </span>
       <div className="border-b border-gray-500"></div>
       <ul className="flex justify-center mb-8">
-        {lista.map((title) => (
+        {lista.map((list) => (
           <li
-            key={title}
+            key={list.title}
             className="font-bold flex h-fit justify-center my-3 mx-1 px-4"
           >
             {" "}
-            {title}
+            {list.title}
           </li>
         ))}
       </ul>
