@@ -7,7 +7,7 @@ interface Numbers {
 export const ButtonGroupInput = ({names}: Numbers) => {
   return (
     <ButtonGroup className="flex py-2 my-3 space-x-2">
-        {names.map(name => <Button className="py-5" size="sm" key={name}>{name}</Button>)}
+        {names.map(name => <Button isIconOnly fullWidth className="py-5" radius="sm" style={{ height: 2 , fontSize: 13}} size="lg" key={name}>{name}</Button>)}
     </ButtonGroup>
   )
 }

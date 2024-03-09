@@ -8,7 +8,7 @@ import { Footer } from "../components/Footer";
 export const Tasar = () => {
   return (
     <>
-      <Layout clases="flex flex-col">
+      <Layout clases="w-full min-h-screen flex flex-col justify-between">
         <Header />
         <Main clases="w-full flex mt-24">
           <div className="flex-col justify-center ">

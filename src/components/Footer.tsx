@@ -9,7 +9,7 @@ const lista = listaNav();
 
 export const Footer = () => {
   return (
-    <div className="flex-col bg-colorLogo h-72 mt-3 w-full pt-5 px-20 relative top-5">
+    <div className="flex-col bg-colorLogo h-72 w-full pt-5 px-20 ">
       <div className="w-full flex justify-center">
         <img className="h-24 pl-2 " src={image} alt="" />
       </div>

@@ -16,7 +16,7 @@ export const AsideFilter = () => {
   <span className="text-default-400 text-small">$</span>
 </div>
   return (
-    <aside className="w-1/4 bg-white rounded-2xl  m-2 px-4 py-4 h-auto text-xl">
+    <aside className="min-w-[350px] w-1/5 bg-white rounded-2xl  m-2 px-4 py-4 h-auto text-xl mt-24 phone:hidden tablet:hidden laptop:block ">
         <CleanFilter title={title[0]} classNameTitle="text-2xl font-bold" classNameDiv="flex px-2 py-6 w-full justify-between items-center" children={<ButtonClean title="Limpiar todo" className="text-black rounded-xl bg-gray-200 px-5 py-2 hover:bg-gray-400"/>}/>
 
         <CleanFilter title={title[1]} classNameTitle="font-bold" classNameDiv="flex p-2 w-full justify-between items-center border-gray-200 border-b-2 mb-2" children={<ButtonClean title="Limpiar" className="text-black rounded-xl bg-gray-200 px-5 py-2 hover:bg-gray-400"/>} input={<CheckBoxGroup names={tipoDePropiedadNombres}/>}/>

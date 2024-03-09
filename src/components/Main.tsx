@@ -8,7 +8,7 @@ interface MainProps {
 export const Main = ({ clases, children}: MainProps) => {
     return (
         <main className={clases} >
-            <div >{children}</div>
+            {children}
         </main>
 
 

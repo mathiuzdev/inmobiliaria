@@ -12,10 +12,10 @@ import { Layout } from "../components/Layout";
 export const Contact = () => {
     return (
         <>
-            <Layout clases="flex flex-col justify-between">
+            <Layout clases="w-full min-h-screen flex flex-col justify-between items-center">
                 <Header />
-                <Main clases="w-3/4 flex mt-24">
-                    <div className="w-3/5 flex flex-col gap-4  px-7 mt-4 mr-2">
+                <Main clases="w-3/4 flex mt-24 ">
+                    <div className="w-3/5 flex flex-col gap-4  px-7 mt-4 mr-2 ">
                         <h1 className="font-bold text-2xl">¡Estamos para ayudarte!</h1>
                         <h2 className="text-l">Complete el siguiente formulario. A la brevedad nos pondremos en contacto con usted.</h2>
                         <label htmlFor="" className="font-bold" >Datos personales</label>
