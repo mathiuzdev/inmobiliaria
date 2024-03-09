@@ -10,7 +10,7 @@ const listaNav = (): NavItem[] => {
         title: "ALQUILAR",
         link: "/alquilar"
     },{
-        title: "TASACIONES",
+        title: "TASÁ AHORA",
         link: "/tasaciones"
     },{
         title: "CONTACTO",

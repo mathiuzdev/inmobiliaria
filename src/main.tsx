@@ -11,21 +11,22 @@ import { Contact } from './pages/Contact.tsx';
 import { Home } from './pages/Home.tsx';
 import { Tasar } from './pages/Tasar.tsx';
 import { Comprar } from './pages/Comprar.tsx';
-
 const router = createBrowserRouter(
   createRoutesFromElements(
-      <Route>
-        <Route path="/" element={<Home />} />
-        <Route path='/contacto' element={<Contact />} />
-        <Route path='/tasaciones' element={<Tasar />} />
-        <Route path='/comprar' element={<Comprar />} />
-      </Route>
+    <Route>
+      <Route path="/" element={<Home />} />
+      <Route path='/contacto' element={<Contact />} />
+      <Route path='/tasaciones' element={<Tasar />} />
+      <Route path='/comprar' element={<Comprar />} />
+    </Route>
   )
 );
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+   
+      <RouterProvider router={router} />
+   
   </React.StrictMode>,
 )

@@ -17,7 +17,7 @@ export const Home = () => {
  */}
 
             <Layout clases="w-full min-h-screen flex flex-col justify-between">
-
+                
                 <Header />
 
                 <Main clases="w-3/4 flex mt-24">
