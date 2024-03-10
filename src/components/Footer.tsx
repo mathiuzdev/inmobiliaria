@@ -13,9 +13,9 @@ export const Footer = () => {
       <div className="w-full flex justify-center">
         <img className="h-24 pl-2 " src={image} alt="" />
       </div>
-      <span className="flex justify-center font-bold pb-3 text-md">
+      {/* <span className="flex justify-center font-bold pb-3 text-md">
         jesicaortizestudioinmobiliario@gmail.com
-      </span>
+      </span> */}
       <div className="border-b border-gray-500"></div>
       <ul className="flex justify-center mb-8">
         {lista.map((list) => (
