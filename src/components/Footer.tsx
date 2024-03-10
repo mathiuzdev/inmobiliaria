@@ -4,6 +4,7 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 // import PhoneIcon from "@mui/icons-material/Phone";
 // import LocationOnIcon from "@mui/icons-material/LocationOn";
 import listaNav from "../helpers/listasDinamicas";
+import { NavLink } from "react-router-dom";
 
 const lista = listaNav();
 
@@ -23,7 +24,8 @@ export const Footer = () => {
             key={list.title}
             className="font-bold flex h-fit justify-center my-3 mx-1 px-4"
           >
-            {list.title}
+        
+            <NavLink to={list.link}>{list.title}</NavLink>
           </li>
         ))}
       </ul>
