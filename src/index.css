@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.botones button{
+    width: 30px;
+    height: 50px;
+    padding: 0;
+}
+
+.botones button .image-gallery-svg{
+    width: 30px;
+    height: 50px;
+}
