@@ -69,7 +69,7 @@ export const Home = () => {
           </p>
           <p className="pl-8 text-lg font-semibold pb-4">3 AMBIENTES</p>
 
-          <div className=" pl-2 flex w-full justify-around items-center h-[510px]">
+          <div className="flex w-full justify-around items-center h-[510px]">
             <ImagesHome></ImagesHome>
           </div>
           <Button
@@ -147,7 +147,7 @@ export const Home = () => {
               </div>
             </div>
             <div className="bg-white w-[30%]">
-              <div className="w-full flex flex-col gap-4  px-7 mt-4 mr-2 ">
+              <div className="w-full flex flex-col gap-4  px-7 mt-4 ">
                 <h1 className="font-bold text-2xl">
                   ¿Te intersa? Contactate ahora
                 </h1>
@@ -185,7 +185,7 @@ export const Home = () => {
                   ENVIAR MENSAJE
                 </Button>
               </div>
-              <div className="w-full px-7 ml-2">
+              <div className="w-full px-7">
                 <p className="flex justify-center mb-3">O también</p>
                 <Button
                   radius="sm"
@@ -213,7 +213,7 @@ export const Home = () => {
             </p>
             <p className="pt-3 pl-5 leading-[8px]">BELGRANO / C.A.B.A.</p>
             <div className="w-full flex py-4 pl-5 " ref={ubicacionRef}>
-              <span className="w-[60%]  mr-8">
+              <span className="w-[60%]">
                 <Image
                   // id="ubicacion"
                   // height={250}
@@ -221,7 +221,7 @@ export const Home = () => {
                   src="/images/maps.jpg"
                 />
               </span>
-              <span className="w-[40%] mr-5 bg-gray-100 rounded-md p-4">
+              <span className="w-[40%]  bg-gray-100 rounded-md p-4">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
                 deserunt esse illo non. Deleniti ducimus iusto omnis, rerum
                 dolorem dolorum nam quis fugit, hic porro ex explicabo earum
