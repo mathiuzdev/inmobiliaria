@@ -10,7 +10,7 @@ export const HomeCard = () => {
           <Image
             alt="Card background"
             className="object-cover rounded-lg"
-            src="/images/img009.jpg"
+            src="/images/imagen5.jpg"
           />
         </div>
       </CardBody>
